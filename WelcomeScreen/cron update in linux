@@ -1,0 +1,5 @@
+crontab -e
+0 18 * * * /home/jerry/PycharmProjects/WelcomeScreen/.venv/bin/python /home/jerry/PycharmProjects/WelcomeScreen/update_scheduler.py >> /home/jerry/PycharmProjects/WelcomeScreen/cron_log.log 2>&1
+#min 24basedhour day mth day-of-week
+
+cat/home/jerry/PycharmProjects/WelcomeScreen/cron_log.log
